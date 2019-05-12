@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Twentysix26/Red-DiscordBot.git
+	fetch = +refs/heads/develop:refs/remotes/origin/develop
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop
